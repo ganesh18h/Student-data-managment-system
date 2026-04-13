@@ -1,30 +1,46 @@
-# Student-data-managment-system
-# Student Management System (Java Console + Swing UI)
+# Student Data Management System
 
-This is a basic Student Management System built using **Java**.  
-It allows you to:
+A Java console application to manage student records efficiently
+using Core Java and ArrayList.
 
-- Add new student details
+## About
+A menu-driven console application built using Core Java.
+It allows users to add, search, view and delete student records
+stored in memory using ArrayList — no database or framework needed.
+
+## Features
+- Add student (Name, Roll Number, Marks)
 - View all students
-- Search students by roll number
-- Delete a student
-- (Coming Soon) GUI interface using Java Swing
+- Search student by Roll Number
+- Delete student by Roll Number
+- Simple menu-driven interface
 
----
+## Technologies Used
+- Core Java
+- ArrayList (Java Collections)
+- Object Oriented Programming (OOP)
+- Scanner for user input
 
-Technologies Used
+## How to Run
 
-- Java (JDK 17 or any recent version)
-- Java Collections (ArrayList)
-- Scanner for console input
-- Java Swing (for GUI - optional)
+1. Clone the repository
+   git clone https://github.com/ganesh18h/Student-data-managment-system.git
 
----
+2. Open terminal and go to project folder
 
- How to Run
+3. Compile
+   javac "Java code.java"
 
-1. Open this project in your Java IDE (e.g., IntelliJ, Eclipse) or any text editor.
-2. Compile and run the `Main.java` file:
-   ```bash
-   javac Main.java
+4. Run
    java Main
+
+## Sample Menu
+1. Add student
+2. View all students
+3. Search by roll number
+4. Delete student
+5. Exit
+
+## Author
+Ganesh H — Java Developer | Mainframe | Hyderabad
+GitHub: https://github.com/ganesh18h
